@@ -4,7 +4,7 @@ This plugin generates a page with all enrolled courses and progress which can be
 
 ## Usage
 
-Install the plugin from your Moodle Administration page
+Download(https://github.com/MUDOTMY/moodle-report_mycourses/archive/master.zip) and Install the plugin from your Moodle Administration page
 Add a navigation link to your Moodle to view the page:
 https://yourmoodlelms.com/report/mycourses/index.php
 
