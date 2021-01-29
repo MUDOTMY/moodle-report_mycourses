@@ -11,6 +11,7 @@ https://yourmoodlelms.com/report/mycourse/index.php
 ## Description
 
 One of the great benefit of using this plugin is it show all courses a user enrolled in one page along with the course category and current completion progress. 
+<img src="https://user-images.githubusercontent.com/5198092/106220947-8c25f600-6217-11eb-8a45-ee015bf3137f.png">
 
 ## Settings
 There is no setting available for this plugin
