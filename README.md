@@ -6,7 +6,7 @@ This plugin provide a page with all enrolled courses and progress which can be a
 
 Install the plugin from your Moodle Administration page
 Add a navigation link to your Moodle to view the page:
-https://yourmoodlelms.com/report/mycourse/index.php
+https://yourmoodlelms.com/report/mycourses/index.php
 
 ## Description
 
