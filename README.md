@@ -1,6 +1,6 @@
 # My Courses Moodle Plugin
 
-This plugin provide a page with all enrolled courses and progress which can be added to Moodle navigation
+This plugin generates a page with all enrolled courses and progress which can be added to Moodle navigation.
 
 ## Usage
 
