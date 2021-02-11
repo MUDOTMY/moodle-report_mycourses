@@ -19,16 +19,16 @@
  *
  * @package    report
  * @subpackage backups
- * @copyright  2021 onwards Modenlms  {@link http://modernlms.com}
+ * @copyright  2021 onwards Modernlms  {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
 // This adds the settings link to the folder/submenu.
-$ADMIN->add('report_mycourse', $settings);
+$ADMIN->add('report_mycourses', $settings);
 // This adds a link to an external page.
-$ADMIN->add('report_mycourse', new admin_externalpage('report_mycourse', 'Corse Progress',
+$ADMIN->add('report_mycourses', new admin_externalpage('report_mycourses', 'Corse Progress',
         $CFG->wwwroot.'/report/mycourse/index.php'));
 
 // no report settings

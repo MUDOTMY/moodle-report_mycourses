@@ -23,8 +23,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'My Course';
-$string['admin'] = 'My Course Enroll';
+$string['pluginname'] = 'My Courses';
+$string['admin'] = 'My Courses';
 $string['privacy:metadata'] = 'The My Course reports plugin does not store any personal data.';
 
 
@@ -33,8 +33,8 @@ $string['course'] = 'Course Name';
 $string['currentscore'] = 'Current Score';
 $string['type'] = 'Course Category';
 $string['completion'] = 'Completion';
-$string['dateend'] = 'Time End';
-$string['titleheader'] = 'My Course';
+$string['dateend'] = 'Course End Date';
+$string['titleheader'] = 'My Courses';
 
 
 

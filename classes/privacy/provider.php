@@ -19,16 +19,16 @@
  *
  * @package    report
  * @subpackage backups
- * @copyright  2021 onwards Modenlms  {@link http://modernlms.com}
+ * @copyright  2021 onwards Modernlms  {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace report_mycourse\privacy;
+namespace report_mycourses\privacy;
 
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Privacy Subsystem for report_mycourse implementing null_provider.
+ * Privacy Subsystem for report_mycourses implementing null_provider.
  *
  * @copyright  2018 Zig Tan <zig@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

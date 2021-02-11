@@ -19,14 +19,14 @@
  *
  * @package    report
  * @subpackage backups
- * @copyright  2021 onwards Modenlms  {@link http://modernlms.com}
+ * @copyright  2021 onwards Modernlms  {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 
-function report_mycourse_get_preview(){
+function report_mycourses_get_preview(){
 
 Global $CFG, $USER, $DB;
 
@@ -34,7 +34,7 @@ Global $CFG, $USER, $DB;
 $currentuser = $USER->id;
 
 $url = new moodle_url('/course/view.php?id');
-$logourl = new moodle_url('/report/mycourse/img/new.png');
+$logourl = new moodle_url('/report/mycourses/img/new.png');
 
 // get course not set date end
 $sqlgetenrol = "SELECT * 
@@ -177,12 +177,12 @@ echo '<div class="modernlms-lb container">
     <table id="modernlms_mycourse" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
-                <th>'.get_string('no', 'report_mycourse').'</th>
-                <th>'.get_string('course', 'report_mycourse').'</th>
-                <th>'.get_string('currentscore', 'report_mycourse').'</th>
-                <th>'.get_string('type', 'report_mycourse').'</th>
-                <th>'.get_string('dateend', 'report_mycourse').'</th>
-                <th>'.get_string('completion', 'report_mycourse').'</th>
+                <th>'.get_string('no', 'report_mycourses').'</th>
+                <th>'.get_string('course', 'report_mycourses').'</th>
+                <th>'.get_string('currentscore', 'report_mycourses').'</th>
+                <th>'.get_string('type', 'report_mycourses').'</th>
+                <th>'.get_string('dateend', 'report_mycourses').'</th>
+                <th>'.get_string('completion', 'report_mycourses').'</th>
             </tr>
         </thead>
         <tbody>
