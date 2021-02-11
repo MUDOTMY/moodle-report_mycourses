@@ -15,20 +15,20 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for report_mycourses.
+ * Version details.
  *
  * @package    report
  * @subpackage mycourses
- * @copyright  2021 onwards Sam Suresh {@link https://modernlms.com}
+ * @copyright  2021 Modernlms {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace report_mycourses\privacy;
+namespace report_mycourse\privacy;
 
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Privacy Subsystem for report_mycourses implementing null_provider.
+ * Privacy Subsystem for report_mycourse implementing null_provider.
  *
  * @copyright  2018 Zig Tan <zig@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

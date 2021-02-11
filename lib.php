@@ -18,8 +18,8 @@
  * Version details.
  *
  * @package    report
- * @subpackage backups
- * @copyright  2021 onwards Modernlms  {@link http://modernlms.com}
+ * @subpackage mycourses
+ * @copyright  2021 Modernlms {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -52,9 +52,6 @@ $percentage = 0;
 $dpercentage = 0;
 foreach ($datasqlgetenrol as $datadatasqlgetenrol) 
 {   
-
-
-
             //get category 
             $categoryname = '';
             $sqlcategory = "SELECT * 
@@ -174,7 +171,7 @@ foreach ($datasqlgetenrol as $datadatasqlgetenrol)
 
 echo '<div class="modernlms-lb container">
     <div class="row">
-    <table id="modernlms_mycourse" class="table table-striped table-bordered" style="width:100%">
+    <table id="modernlms_mycourses" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th>'.get_string('no', 'report_mycourses').'</th>

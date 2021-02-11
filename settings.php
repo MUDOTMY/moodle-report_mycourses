@@ -15,18 +15,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Settings for the backups report
+ * Version details.
  *
  * @package    report
  * @subpackage mycourses
- * @copyright  2021 onwards Sam Suresh {@link https://modernlms.com}
+ * @copyright  2021 Modernlms {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
-// if need link url from report site
-// $ADMIN->add('reports', new admin_externalpage('reportbackups', get_string('admin', 'report_mycourses'), "$CFG->wwwroot/report/mycourse/index.php",'moodle/backup:backupcourse'));
+// This adds the settings link to the folder/submenu.
+$ADMIN->add('report_mycourse', $settings);
+// This adds a link to an external page.
+$ADMIN->add('report_mycourse', new admin_externalpage('report_mycourse', 'Corse Progress',
+        $CFG->wwwroot.'/report/mycourse/index.php'));
 
 // no report settings
 $settings = null;
