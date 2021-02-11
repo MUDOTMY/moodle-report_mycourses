@@ -21,12 +21,12 @@ body {
 .donut-segment {
   animation: donut-chart-fill 1s reverse ease-in;
   transform-origin: center;
-  stroke: #28a745;
+  stroke: #FF6200;
 }
 
 .donut-text {
   font-family: Arial, Helvetica, sans-serif;
-  fill: #28a745;
+  fill: #FF6200;
 }
 
 .donut-label {
@@ -39,7 +39,7 @@ body {
 
 .donut-percent {
   font-size: 0.5em;
-  fill: #28a745;
+  fill: #FF6200;
   line-height: 1;
   transform: translateY(0.5em);
 }

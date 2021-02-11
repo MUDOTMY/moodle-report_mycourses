@@ -15,16 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_mycourses'
+ * Version details.
  *
  * @package    report
- * @subpackage mycourses
- * @copyright  2021 onwards Sam Suresh {@link https://modernlms.com}
+ * @subpackage backups
+ * @copyright  2021 onwards Modenlms  {@link http://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'My Courses';
-$string['admin'] = 'My Courses';
+$string['pluginname'] = 'My Course';
+$string['admin'] = 'My Course Enroll';
 $string['privacy:metadata'] = 'The My Course reports plugin does not store any personal data.';
 
 
@@ -33,7 +33,8 @@ $string['course'] = 'Course Name';
 $string['currentscore'] = 'Current Score';
 $string['type'] = 'Course Category';
 $string['completion'] = 'Completion';
-$string['dateend'] = 'Course Due Date';
+$string['dateend'] = 'Time End';
+$string['titleheader'] = 'My Course';
 
 
 
