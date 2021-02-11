@@ -1,12 +1,12 @@
 # My Courses Moodle Plugin
 
-This plugin generates a page with all enrolled courses and progress which can be added to Moodle navigation.
+This plugin provide a page with all enrolled courses and progress which can be added to Moodle navigation
 
 ## Usage
 
-Download(https://github.com/MUDOTMY/moodle-report_mycourses/archive/master.zip) and Install the plugin from your Moodle Administration page
+Install the plugin from your Moodle Administration page
 Add a navigation link to your Moodle to view the page:
-https://yourmoodlelms.com/report/mycourses/index.php
+https://yourmoodlelms.com/report/mycourse/index.php
 
 ## Description
 

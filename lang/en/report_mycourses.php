@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details.
+ * Strings for component 'report_mycourses'
  *
  * @package    report
- * @subpackage backups
- * @copyright  2021 onwards Modenlms  {@link http://modernlms.com}
+ * @subpackage mycourses
+ * @copyright  2021 onwards Sam Suresh {@link https://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -33,8 +33,7 @@ $string['course'] = 'Course Name';
 $string['currentscore'] = 'Current Score';
 $string['type'] = 'Course Category';
 $string['completion'] = 'Completion';
-$string['dateend'] = 'Course End Date';
-$string['titleheader'] = 'My Courses';
+$string['dateend'] = 'Course Due Date';
 
 
 

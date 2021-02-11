@@ -18,13 +18,13 @@
  * Version details.
  *
  * @package    report
- * @subpackage backups
- * @copyright  2021 onwards Modernlms  {@link http://modernlms.com}
+ * @subpackage mycourses
+ * @copyright  2021 onwards Sam Suresh {@link https://modernlms.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2021021100;       // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2019111200;       // Requires this Moodle version
+$plugin->version   = 2021012803;       // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires  = 2015111610;       // Requires this Moodle version
 $plugin->component = 'report_mycourses'; // Full name of the plugin (used for diagnostics)
